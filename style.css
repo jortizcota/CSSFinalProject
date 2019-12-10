@@ -8,6 +8,8 @@ body{
     font-size: 20px;
     line-height: 125%;
     font-family: 'Work Sans', sans-serif;
+    color: #66360C;
+    min-height: 100%;
 }
 
 .intro{
@@ -17,6 +19,10 @@ body{
     background-color: rgba(250, 241, 223, .9);
     border-radius: 15px 15px 0px 0px;
     padding: 2em;
+}
+
+li{
+    margin: 5px;
 }
 
 h1::before{
@@ -48,6 +54,7 @@ h1,h2,h3{
     grid-template-columns: 1fr;
     float: left;
     width: 25%;
+    height: 100%;
     padding: 2em;
     box-sizing: border-box;
     border-radius: 0px 0px 15px 0px;
