@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#a9a9a9 0%, #000000 100%);
+    color: white;
+}
+
+a:hover, :visited{
+    color: 
+}
+
+a:hover{
+    border: dashed black;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.page-wrapper{
+    background: url(./Images2/industrialbackground.jpg);
+    position: relative;
+    margin: 0 auto;
+    padding: 0 3px;
+    width: 800px;
+    height: 100%;
+    text-align: left;
+}
+
+.preamble{
+    position: relative;
+    left: 0;
+    width: 400px;
+    padding: 0 45px 0 0;
+    margin: 0;
+}
+
+.supporting{
+    position: relative;
+    left: 0;
+    width: 400px;
+    padding: 0 45px 0 0;
+    margin: 0;
+}
+
+.sidebar{
+    position: absolute;
+    top: 170px;
+    right: 2px;
+    margin: 0 0 0 400px;
+}
+
+section{
+    display: block;
+}
